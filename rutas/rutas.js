@@ -10,6 +10,9 @@ ruta.get("/home", async (req,res) => {
 ruta.get("/class1",(req,res) => {
     res.render("class1");
 });
+ruta.get("/class2",(req,res) => {
+    res.render("class2");
+});
 ruta.get('/estilos', (req, res) => {
     res.sendFile(path.join(__dirname, 'web', 'home.css'));
   });
