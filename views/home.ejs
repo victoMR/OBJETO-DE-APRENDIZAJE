@@ -1,11 +1,61 @@
-<link rel="stylesheet" href="/web/css/home.css">
-<%- include("templates/top") %>
-<%- include("templates/menu") %>
+  <link rel="stylesheet" href="/web/css/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="/web/js/home.js" defer></script>
+  <%- include("templates/top") %>
+  <%- include("templates/menu") %>
+<body > 
+  <div class="background-image">
+    <div class="text-overlay">
+      <h1 class="text-center text-white">OBJETO DE APRENDIZAJE</h1>
+      <h3 class="text-center text-white">El objeto de aprendizaje sobre esta página web busca proporcionar a los estudiantes una experiencia educativa enriquecedora y efectiva, permitiéndoles desarrollar habilidades de pensamiento crítico y adquirir conocimientos que puedan aplicar en su vida cotidiana y en su futuro profesional.</h3>
+    </div>
+  </div><br><br>
+  <!-- Agregar la sección de vistas previas -->
+  <h1 class="text-center text-capitalize text-body-emphasis animate__animated animate__lightSpeedInLeft">Contenido</h1>
+  <div class="container_clases animate__animated animate__rubberBand">
+    <div class="container-fluid p-5">
+      <div class="row my-4 p-5 d-flex justify-content-center">
+        <!-- Vista previa de la página 1 -->
+        <div class="col-md-4 preview-page">
+          <a href="/class1" class="text-decoration-none" onclick="animatePageTransition(event)"> <!-- Add the appropriate href here -->
+            <div class="preview-content ">
+              <!-- Contenido de la página 1 -->
+              <h2 class="preview-title">Sección 1</h2>
+              <picture >
+                <img src="/web/img/preview1.png" alt="Image1" class="preview-image">
+              </picture>
+            </div>
+          </a>
+        </div>
 
-<div class="background-image">
-  <div class="text-overlay">
-    <h1 class="text-center text-white">OBJETO DE APRENDIZAJE</h1>
-    <h3 class="text-center text-white">El objeto de aprendizaje sobre esta pagina web  busca proporcionar a los estudiantes una experiencia educativa enriquecedora y efectiva, permitiéndoles desarrollar habilidades de pensamiento crítico y adquirir conocimientos que puedan aplicar en su vida cotidiana y en su futuro profesional.</h3>
+        <!-- Vista previa de la página 2 -->
+        <div class="col-md-4 preview-page">
+          <a href="/class2" class="text-decoration-none"> <!-- Add the appropriate href here -->
+            <div class="preview-content">
+              <!-- Contenido de la página 2 -->
+              <h2 class="preview-title">Sección 2</h2>
+              <picture>
+                <img src="/web/img/preview2.png" alt="Image2" class="preview-image">
+              </picture>
+            </div>
+          </a>
+        </div>
+
+        <!-- Vista previa de la página 3 -->
+        <div class="col-md-4 preview-page">
+          <a href="/class3" class="text-decoration-none"> <!-- Add the appropriate href here -->
+            <div class="preview-content">
+              <!-- Contenido de la página 3 -->
+              <picture>
+                <h2 class="preview-title">Sección 3</h2>
+                <img src="/web/img/preview3.png" alt="Image3" class="preview-image">
+              </picture>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-<%- include("templates/footer") %>
+
+  <%- include("templates/footer") %>
+</body>

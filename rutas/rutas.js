@@ -1,5 +1,6 @@
 var ruta=require("express").Router();
 
+
 ruta.get("/", async (req,res) => {
     res.render("home");
 });
