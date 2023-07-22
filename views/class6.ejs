@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/web/css/class1.css">
+  <link rel="icon" href="/web/img/main.png" type="image/x-icon">
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.body.classList.add('animate__animated', 'animate__fadeIn');
+    });
+  </script>
+</head>
+<title>SESION 5</title>
+<body>
+<%- include("templates/top") %>
+<%- include("templates/menu") %>
+
+
+<!--Contenido en esta seccion :)-->
+
+
+<button onclick="scrollToTop()" id="btnScrollToTop" title="Volver arriba">↑</button>
+
+<!-- Scripts -->
+<script src="/web/js/class1.js"></script>
+</body>
+<%- include("templates/footer") %>
+</html>
