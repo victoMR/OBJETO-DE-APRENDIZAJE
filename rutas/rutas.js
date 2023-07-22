@@ -1,6 +1,5 @@
 var ruta=require("express").Router();
 
-
 ruta.get("/", async (req,res) => {
     res.render("home");
 });
@@ -19,6 +18,9 @@ ruta.get("/class3",(req,res) => {
 });
 ruta.get("/class4",(req,res) => {
     res.render("class4");
+});
+ruta.get("/class5",(req,res) => {
+    res.render("class5");
 });
 ruta.get('/estilos', (req, res) => {
     res.sendFile(path.join(__dirname, 'web', 'home.css'));
