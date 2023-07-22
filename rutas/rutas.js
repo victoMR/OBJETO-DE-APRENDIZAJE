@@ -17,6 +17,9 @@ ruta.get("/class2",(req,res) => {
 ruta.get("/class3",(req,res) => {
     res.render("class3");
 });
+ruta.get("/class4",(req,res) => {
+    res.render("class4");
+});
 ruta.get('/estilos', (req, res) => {
     res.sendFile(path.join(__dirname, 'web', 'home.css'));
   });
