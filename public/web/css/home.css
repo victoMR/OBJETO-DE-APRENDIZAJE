@@ -80,33 +80,44 @@ a.text-decoration-none {
   color: inherit;
   text-decoration: none;
 }
-
-a.text-decoration-none:hover {
-  /* Add hover styles here if needed */
-}
 .preview-image {
   width: 100%;
   height: 80%;
   object-fit: cover;
 }
-@keyframes textHoverAnimation {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.1);
-  }
-}
-
 /* Aplica la animación cuando se haga hover sobre el elemento */
 .content:hover {
   animation: textHoverAnimation 0.3s step-end infinite;
+}
+.divider {
+  border-top: 10px solid yellow; /* Ajusta el color y grosor de la línea */
+  width: 50%; /* Ajusta el ancho de la línea */
+  margin: 0 auto;
 }
 
 /* Estilos adicionales para las vistas previas en dispositivos móviles */
 @media (max-width: 768px) {
   .preview-page {
     width: 100%;
+    margin: 20px 20px 20px 20px;  
+  }
+  .text-overlay h1 {
+    font-size: 56px;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 10px;
+  }
+  
+  .text-overlay h3 {
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    max-width: 80%;
+    background-color: black;
+    border-radius: 15px;
+    margin: 15px;
   }
 }
 

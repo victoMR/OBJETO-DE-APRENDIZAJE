@@ -25,4 +25,5 @@ function animatePageTransition(event) {
     // Agregar una clase de animación para la entrada de la página
     document.body.classList.add('animate__animated', 'animate__fadeIn');
   });
+
   

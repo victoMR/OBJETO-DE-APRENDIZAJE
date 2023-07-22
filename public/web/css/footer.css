@@ -1,0 +1,39 @@
+/* footer.css */
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flexbox a columna */
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0; /* Ajusta este valor para modificar la separación entre el texto y las imágenes */
+  }
+  
+  .contenenedor_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0; /* Ajusta este valor para modificar la separación entre el texto y las imágenes */
+    padding-bottom: 25px;
+  }
+  
+  .footer-content p {
+    margin-bottom: 25px; /* Elimina el margen predeterminado de los párrafos */
+  }
+  
+  .footer-content picture {
+    margin: 10px 30px; /* Ajusta este valor para separar las imágenes entre sí */
+  }
+  /* Ajustar tamaño específico para el logo de QRO */
+  .imgqro {
+    max-width: 300px !important; /* Ajusta el ancho máximo según tus preferencias */
+    max-height: 300px !important; /* Ajusta la altura máxima según tus preferencias */
+  }
+  
+  /* footer.css */
+  .footer-content picture img {
+    max-width: 125px; /* Establece el ancho máximo para las imágenes */
+    max-height: 125px; /* Establece la altura máxima para las imágenes */
+  }
+  
+  
+
+  

@@ -22,6 +22,7 @@
   .col-md-6 p {
     padding-top: 8%;
     font-size: 20px; /* Ajusta el tamaño del texto según sea necesario */
+    text-align: justify;
   }
   .activity-section {
     padding: 20px;
@@ -41,6 +42,15 @@
   .activity-section li {
     margin-bottom: 10px;
   }
+  .highlight {
+    background-color: #fdfd96c4; /* Color pastel amarillo */
+  }
+
+  /* Estilo para el subrayado */
+  .underline {
+    text-decoration: underline;
+  }
+  
   
   /* Estilos para hacer la actividad recreativa responsive */
   @media screen and (max-width: 768px) {
