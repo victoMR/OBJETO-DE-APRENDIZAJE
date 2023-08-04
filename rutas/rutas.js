@@ -22,9 +22,11 @@ ruta.get("/class4",(req,res) => {
 ruta.get("/class5",(req,res) => {
     res.render("class5");
 });
+
 ruta.get("/class6",(req,res) => {
     res.render("class6");
 });
+
 ruta.get('/estilos', (req, res) => {
     res.sendFile(path.join(__dirname, 'web', 'home.css'));
   });
